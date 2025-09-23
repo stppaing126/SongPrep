@@ -1,0 +1,8 @@
+flash_attn==2.7.4.post1
+librosa>=0.11.0
+nnAudio>=0.3.3
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.56.1
+wheel>=0.45.1
