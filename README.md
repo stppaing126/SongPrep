@@ -7,7 +7,7 @@ This repository is the official code repository for SongPrep: A Preprocessing Fr
 
 
 ## Evaluation
-Results are reported in low Diarization Error Rate (DER) for structure parsing and Word Error Rate (WER%) for lyrics transcription.
+Results are reported in Diarization Error Rate (DER) for structure parsing and Word Error Rate (WER) for lyrics transcription.
 | Model            | #Params | WER | DER |
 |:----------------:|:-------:|:--------:|:--------:|
 | SongPrep   | 7B | **23.9%** | **18.0%** |
