@@ -1,7 +1,7 @@
 # SongPrep
 <p align="center"><img src="img/logo.jpg" width="40%"></p>
 <p align="center">
-    <a href="https://song-prep.github.io/demo/">Demo</a> &nbsp;|&nbsp; <a href="https://arxiv.org/abs/2509.17404">Paper</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/tencent/SongPrep-7B">Weight</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/datasets/waytan22/SSLD-200">Dataset</a>
+    <a href="https://song-prep.github.io/demo/">Demo</a> &nbsp;|&nbsp; <a href="https://arxiv.org/abs/2509.17404">Paper</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/waytan22/SongPrep-7B">Weight</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/datasets/waytan22/SSLD-200">Dataset</a>
 </p>
 This repository is the official code repository for SongPrep: A Preprocessing Framework and End-to-end Model for Full-song Structure Parsing and Lyrics Transcription. SongPrep is able to analyze the structure and lyrics of entire songs and provide precise timestamps without the need for additional source separation. In this repository, we provide the SongPrep model, inference scripts, and checkpoints trained on the Million Song Dataset that support both Chinese and English.
 
@@ -10,11 +10,11 @@ This repository is the official code repository for SongPrep: A Preprocessing Fr
 Results are reported in low Diarization Error Rate (DER) for structure parsing and Word Error Rate (WER%) for lyrics transcription.
 | Model            | #Params | WER | DER |
 |:----------------:|:-------:|:--------:|:--------:|
-| SongPrep   | 7B | **0.239** | **0.180** |
-| Gemini-2.5   | - | 0.292 | 0.946 |
-| Seed-ASR         | 12B+ | 1.041 | - |
-| Qwen3-ASR       | - | 0.333 | - |
-| Qwen-Audio    | 8.4B | 2.327 | - |
+| SongPrep   | 7B | **23.9%** | **18.0%** |
+| Gemini-2.5   | - | 29.2% | 94.6% |
+| Seed-ASR         | 12B+ | 104.1% | - |
+| Qwen3-ASR       | - | 33.3% | - |
+| Qwen-Audio    | 8.4B | 232.7% | - |
 
 
 ## Installation
