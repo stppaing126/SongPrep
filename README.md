@@ -42,6 +42,14 @@ Once everything is set up, you can run the inference script using the following 
 ```bash
 python3 run.py -i your_wav_path
 ```
+The complete output may look like:
+```bash
+[structure][start:end]lyric ; [structure][start:end]lyric ; [structure][start:end]lyric
+```
+- The song is divided into segments by ';'.
+- The **structure** is the label from structure analysis for the segment.
+- The **start** and **end** are the segment’s start and end times.
+- The lyric is the recognized lyrics, where sentences separated by '.'.
 
 ## Citation
 ```
@@ -58,5 +66,4 @@ python3 run.py -i your_wav_path
 
 ## License
 The code and weights in this repository is released in the [LICENSE](LICENSE)  file.
-
 
