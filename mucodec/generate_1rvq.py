@@ -53,7 +53,6 @@ class Tango:
         min_samples = int(40 * self.sample_rate)
         # 40秒对应10个token
         output_len = int(orig_length / float(self.sample_rate) * 25) + 1
-        print("output_len: ", output_len)
 
         while(audios.shape[-1] < min_samples):
             audios = torch.cat([audios, audios], -1)
