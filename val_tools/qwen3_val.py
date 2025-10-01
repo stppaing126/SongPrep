@@ -75,14 +75,18 @@ if __name__ == "__main__":
     der_list = []
     for key in tqdm(list(ref_dict.keys())):
         one_ref = ref_dict[key]
-        one_hyp = hyp_dict[key]
+        try:
+            one_hyp = hyp_dict[key]
+        except:
+            continue
         wer, pre_wer, r, h = tw.cal_wer(one_hyp["lyrics"], one_ref["lyric_norm"])
         wer_list.append(wer)
-
+    
+    n = len(wer_list)
     wer_array = np.array(wer_list)
     mean_wer = np.mean(wer_array)
     std_wer = np.std(wer_array, ddof=1)
     se = std_wer / np.sqrt(n)
     ci_low, ci_high = stats.norm.interval(0.95, loc=mean_wer, scale=se)
 
-    print(f"wer: {mean_wer}, std: {std_wer}, 95% ci: ({ci_low}, {ci_high})")
+    print(f"wer: {mean_wer}, val_num: {n}, std: {std_wer}, 95% ci: ({ci_low}, {ci_high})")
